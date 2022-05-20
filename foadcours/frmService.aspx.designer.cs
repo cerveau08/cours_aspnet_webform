@@ -60,6 +60,24 @@ namespace foadcours.Inscription
         protected global::System.Web.UI.WebControls.Button btnModifier;
 
         /// <summary>
+        /// Contrôle btnSupprimer.
+        /// </summary>
+        /// <remarks>
+        /// Champ généré automatiquement.
+        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnSupprimer;
+
+        /// <summary>
+        /// Contrôle btnRechercher.
+        /// </summary>
+        /// <remarks>
+        /// Champ généré automatiquement.
+        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnRechercher;
+
+        /// <summary>
         /// Contrôle dgService.
         /// </summary>
         /// <remarks>

@@ -11,5 +11,16 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="Eleve">
+      <EntityTypeMapping TypeName="bdEtablissementModel.Eleve">
+        <MappingFragment StoreEntitySet="Eleve">
+          <ScalarProperty Name="IdService" ColumnName="IdService" />
+          <ScalarProperty Name="AdresseEleve" ColumnName="AdresseEleve" />
+          <ScalarProperty Name="EmailEleve" ColumnName="EmailEleve" />
+          <ScalarProperty Name="NomPrenomEleve" ColumnName="NomPrenomEleve" />
+          <ScalarProperty Name="IdEleve" ColumnName="IdEleve" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

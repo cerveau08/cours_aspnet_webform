@@ -8,34 +8,48 @@
             <asp:Label runat="server" AssociatedControlID="txtLibelle" CssClass="col-md-4 control-label">Libelle</asp:Label>
             <div class="col-md-8">
                 <asp:TextBox runat="server" ID="txtLibelle" CssClass="form-control" />
-                <asp:RequiredFieldValidator runat="server" ControlToValidate="txtLibelle"
-                    CssClass="text-danger" ErrorMessage="*" />
+               <%-- <asp:RequiredFieldValidator runat="server" ControlToValidate="txtLibelle"
+                    CssClass="text-danger" ErrorMessage="*" />--%>
             </div>
         </div>
         <div class="form-group">
             <asp:Label runat="server" AssociatedControlID="txtMontant" CssClass="col-md-4 control-label">Montant</asp:Label>
             <div class="col-md-8">
                 <asp:TextBox runat="server" ID="txtMontant" TextMode="Number" CssClass="form-control" />
-                <asp:RequiredFieldValidator runat="server" ControlToValidate="txtMontant"
-                    CssClass="text-danger" ErrorMessage="*" />
+                <%--<asp:RequiredFieldValidator runat="server" ControlToValidate="txtMontant"
+                    CssClass="text-danger" ErrorMessage="*" />--%>
             </div>
         </div>
         <div class="form-group">
             <asp:Label runat="server" AssociatedControlID="txtType" CssClass="col-md-4 control-label">Type</asp:Label>
             <div class="col-md-8">
                 <asp:TextBox runat="server" ID="txtType" CssClass="form-control" />
-                <asp:RequiredFieldValidator runat="server" ControlToValidate="txtType"
-                    CssClass="text-danger" ErrorMessage="*" />
+               <%-- <asp:RequiredFieldValidator runat="server" ControlToValidate="txtType"
+                    CssClass="text-danger" ErrorMessage="*" />--%>
             </div>
         </div>
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
                 <asp:Button runat="server" Text="Enregistrer" CssClass="btn btn-success" ID="btnEnregistrer" OnClick="btnEnregistrer_Click" />
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:Button runat="server" Text="Modifier" CssClass="btn btn-danger" ID="btnModifier" OnClick="btnModifier_Click" />
+                <asp:Button runat="server" Text="Modifier" CssClass="btn btn-warning" ID="btnModifier" OnClick="btnModifier_Click" />
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Button runat="server" Text="Supprimer" CssClass="btn btn-danger" ID="btnSupprimer" OnClick="btnSupprimer_Click"  />
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Button runat="server" Text="Rechercher" CssClass="btn btn-primary" ID="btnRechercher" OnClick="btnRechercher_Click" />
             </div>
         </div>
     </div>
+
+   <%-- <div class="form-horizontal">
+        <div class="form-group">
+                <asp:Label runat="server" AssociatedControlID="txtMotCles" CssClass="col-4 control-label">Mot clès</asp:Label>
+                <div class="col-4">
+                    <asp:TextBox runat="server" ID="txtMotCles" CssClass="form-control" />
+                </div>
+                <asp:Button runat="server" Text="Rechercher" CssClass="btn btn-primary mt-2" ID="btnRechercherMotCles" OnClick="btnRechercherMotCles_Click"/>
+        </div>
+    </div>--%>
 
     <table style="width: 100%; height: 77px;">
         <tr>
@@ -50,7 +64,7 @@
         </tr>
         <tr>
             <td colspan="3">
-                <asp:GridView ID="dgService" runat="server" BackColor="White" BorderColor="#999999" BorderStyle="Solid" BorderWidth="1px" CellPadding="3" ForeColor="Black" GridLines="Vertical" Width="100%">
+                <asp:GridView ID="dgService" runat="server" BackColor="White" BorderColor="#999999" BorderStyle="Solid" BorderWidth="1px" CellPadding="3" ForeColor="Black" GridLines="Vertical" Width="100%" OnSelectedIndexChanged="dgService_SelectedIndexChanged1">
                     <AlternatingRowStyle BackColor="#CCCCCC" />
                     <Columns>
                         <asp:CommandField ShowSelectButton="True" />

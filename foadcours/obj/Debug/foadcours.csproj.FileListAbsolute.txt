@@ -53,6 +53,8 @@ C:\Users\malick\Desktop\foadcours\foadcours\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\malick\Desktop\foadcours\foadcours\bin\Antlr3.Runtime.dll
 C:\Users\malick\Desktop\foadcours\foadcours\bin\AspNet.ScriptManager.bootstrap.dll
 C:\Users\malick\Desktop\foadcours\foadcours\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\malick\Desktop\foadcours\foadcours\bin\EntityFramework.dll
+C:\Users\malick\Desktop\foadcours\foadcours\bin\EntityFramework.SqlServer.dll
 C:\Users\malick\Desktop\foadcours\foadcours\bin\Microsoft.AspNet.FriendlyUrls.dll
 C:\Users\malick\Desktop\foadcours\foadcours\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
 C:\Users\malick\Desktop\foadcours\foadcours\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
@@ -62,11 +64,14 @@ C:\Users\malick\Desktop\foadcours\foadcours\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\malick\Desktop\foadcours\foadcours\bin\Newtonsoft.Json.dll
 C:\Users\malick\Desktop\foadcours\foadcours\bin\System.Web.Optimization.dll
 C:\Users\malick\Desktop\foadcours\foadcours\bin\WebGrease.dll
+C:\Users\malick\Desktop\foadcours\foadcours\bin\EntityFramework.xml
+C:\Users\malick\Desktop\foadcours\foadcours\bin\EntityFramework.SqlServer.xml
 C:\Users\malick\Desktop\foadcours\foadcours\bin\System.Web.Optimization.xml
 C:\Users\malick\Desktop\foadcours\foadcours\bin\Newtonsoft.Json.xml
 C:\Users\malick\Desktop\foadcours\foadcours\bin\Antlr3.Runtime.pdb
 C:\Users\malick\Desktop\foadcours\foadcours\bin\Microsoft.AspNet.FriendlyUrls.xml
 C:\Users\malick\Desktop\foadcours\foadcours\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\malick\Desktop\foadcours\foadcours\bin\fr\EntityFramework.resources.dll
 C:\Users\malick\Desktop\foadcours\foadcours\bin\fr\System.Web.Optimization.resources.dll
 C:\Users\malick\Desktop\foadcours\foadcours\bin\fr\Microsoft.AspNet.FriendlyUrls.resources.dll
 C:\Users\malick\Desktop\foadcours\foadcours\obj\Debug\foadcours.csproj.AssemblyReference.cache
@@ -74,8 +79,3 @@ C:\Users\malick\Desktop\foadcours\foadcours\obj\Debug\foadcours.csproj.CoreCompi
 C:\Users\malick\Desktop\foadcours\foadcours\obj\Debug\foadcours.csproj.CopyComplete
 C:\Users\malick\Desktop\foadcours\foadcours\obj\Debug\foadcours.dll
 C:\Users\malick\Desktop\foadcours\foadcours\obj\Debug\foadcours.pdb
-C:\Users\malick\Desktop\foadcours\foadcours\bin\EntityFramework.dll
-C:\Users\malick\Desktop\foadcours\foadcours\bin\EntityFramework.SqlServer.dll
-C:\Users\malick\Desktop\foadcours\foadcours\bin\EntityFramework.xml
-C:\Users\malick\Desktop\foadcours\foadcours\bin\EntityFramework.SqlServer.xml
-C:\Users\malick\Desktop\foadcours\foadcours\bin\fr\EntityFramework.resources.dll
